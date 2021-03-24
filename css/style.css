@@ -64,8 +64,27 @@
   font-style: normal;
 }
 
+a {
+  text-decoration: none;
+}
+
 body {
   font-family: var(--font-main);
+}
+
+/* COMMON */
+
+.accent-btn {
+  color: var(--c-light);
+  background-color: var(--c-accent);
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  padding: 20px 35px;
+  outline: none;
+  border: none;
 }
 
 /* Front Page section */
@@ -84,6 +103,7 @@ body {
   text-transform: uppercase;
   color: var(--txt-c-accent);
   text-align: center;
+  margin: 35px 0 10px 0;
 }
 
 .front-page-profession {
@@ -93,6 +113,7 @@ body {
   text-transform: uppercase;
   color: var(--txt-c-light);
   text-align: center;
+  margin-bottom: 20px;
 }
 
 .front-page-description {
@@ -100,14 +121,21 @@ body {
   line-height: 150%;
   text-align: center;
   color: var(--txt-c-light);
+  margin-bottom: 20px;
 }
 
 .navigation {
   width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.logo-link {
-  text-decoration: none;
+.navigation-part {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .hire-me-btn {
@@ -116,17 +144,44 @@ body {
   line-height: 18px;
   letter-spacing: 0.05em;
   color: var(--c-accent);
-  text-decoration: none;
+  margin-right: 20px;
 }
 
 .mobile-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
   width: 30px;
-  height: 30px; 
+  height: 30px;
   background: var(--c-accent);
-  display: block;
 }
 
 .mobile-menu .fa-bars {
   color: var(--c-light);
-  width: 10px;
+}
+
+.front-page-gallery-btn {
+  margin-bottom: 40px;
+}
+.front-page-my-photo {
+  width: 100px;
+}
+
+.front-page-my-descr {
+  font-size: 15px;
+  line-height: 140%;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--txt-c-light);
+}
+
+.front-page-my-video-btn {
+  border: 2px solid var(--c-accent);
+  color: var(--txt-c-accent);
+  background: transparent;
+  padding: 10px 40px;
+  font-weight: bold;
 }
