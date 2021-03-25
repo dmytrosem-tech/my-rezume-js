@@ -343,5 +343,63 @@
         </div>
       </div>
     </section>
+
+    <section class="callback-form">
+      <div class="container">
+        <form action="" class="callback-form-container">
+          <h3 class="callback-form-title">/Are you minding [a project?]</h3>
+          <p class="callback-form-descr">
+            Leave a request to discuss the task and technical requirements
+          </p>
+          <input type="text" class="callback-form-input" placeholder="name" />
+          <input type="email" class="callback-form-input" placeholder="email" />
+          <input
+            type="tel"
+            class="callback-form-input"
+            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+            placeholder="phone"
+          />
+          <input
+            type="submit"
+            class="callback-form-submit accent-btn"
+            value="Discuss the project  —"
+          />
+        </form>
+      </div>
+    </section>
+
+    <section class="calculator">
+      <div class="container">
+        <h3 class="calculator-title section-title">
+          Calculate_ the cost of a future project
+        </h3>
+        <p class="calculator-descr">
+          <span>This is an</span>
+          <span class="calculator-descr-accent">approximate</span>
+          <span>calculation.</span>
+        </p>
+        <img
+          src="img/calculator.svg"
+          alt="calculator"
+          class="calculator-icon"
+        />
+        <p class="calculator-text">
+          / The final cost depends on the technical requirements, terms,
+          specifics of your project.
+        </p>
+
+        <form action="" class="calculator-form">
+          <div class="calculator-form-input">
+            <label for="calculator-form-website-type" class="calculator-form-title">What should be done: </label>
+            <select name="website-type" id="calculator-form-website-type"></select>
+          </div>
+          <div class="calculator-form-input">
+            <label for="calculator-form-technologies" class="calculator-form-title">Choose preferred technologies</label>
+            <select name="technologies" id="calculator-form-technologies"></select>
+          </div>
+        </form>
+         
+      </div>
+    </section>
   </body>
 </html>
