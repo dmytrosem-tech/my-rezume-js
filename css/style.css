@@ -77,7 +77,7 @@ body {
 .accent-btn {
   color: var(--c-light);
   background-color: var(--c-accent);
-  font-weight: bold;
+  font-weight: 700;
   font-size: 15px;
   line-height: 18px;
   letter-spacing: 0.05em;
@@ -90,6 +90,9 @@ body {
 /* Front Page section */
 
 .front-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 320px;
   background: var(--c-dark-blue);
   padding: 30px 10px 55px 10px;
@@ -97,7 +100,7 @@ body {
 }
 
 .front-page-my-name {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 31px;
   text-transform: uppercase;
@@ -107,7 +110,7 @@ body {
 }
 
 .front-page-profession {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 35px;
   line-height: 42px;
   text-transform: uppercase;
@@ -167,6 +170,7 @@ body {
 }
 .front-page-my-photo {
   width: 100px;
+  margin-bottom: 20px;
 }
 
 .front-page-my-descr {
@@ -176,12 +180,79 @@ body {
   letter-spacing: 0.05em;
   text-transform: uppercase;
   color: var(--txt-c-light);
+  margin: 0 0 15px 0;
 }
 
 .front-page-my-video-btn {
+  display: flex;
+  align-items: center;
   border: 2px solid var(--c-accent);
   color: var(--txt-c-accent);
   background: transparent;
   padding: 10px 40px;
-  font-weight: bold;
+  font-weight: 700;
+  margin-bottom: 35px;
+}
+
+.front-page-my-video-btn .fa-play {
+  font-size: 9px;
+  margin-right: 7px;
+}
+
+.front-page-laptop {
+  width: 250px;
+  margin-bottom: 40px;
+}
+
+/* Experience section */
+
+.experience-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.experience-title {
+  margin: 0 0 30px 0;
+  width: 180px;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 140%;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--txt-c-light);
+}
+
+.experience-skill {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.experience-dots {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.experience-dots-item {
+  margin-right: 5px;
+  color: var(--c-grey-blue);
+  font-size: 8px;
+}
+
+.experience-dots-item-accent {
+  color: var(--c-accent);
+}
+
+.experience-text {
+  margin: 0;
+  font-size: 16px;
+  line-height: 19px;
+  color: var(--txt-c-light);
+}
+
+.experience-text .last {
+  margin-bottom: 56px;
 }
