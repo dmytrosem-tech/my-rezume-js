@@ -120,7 +120,7 @@ body {
   flex-direction: column;
   align-items: center;
   width: 320px;
-  background: var(--c-dark-blue);
+  background: var(--c-dark);
   padding: 30px 10px 55px 10px;
   box-sizing: border-box;
 }
