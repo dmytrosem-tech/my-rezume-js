@@ -8,6 +8,7 @@
 
     <link rel="stylesheet" href="./css/normalize.min.css" />
     <link rel="stylesheet" href="./css/font-awesome.min.css" />
+    <link rel="stylesheet" href="./css/choices.min.css" />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
@@ -421,10 +422,11 @@
               name="technologies"
               id="calculator-form-technologies"
               class="calculator-form-select"
+              multiple
             >
-              <option value="css">CSS</option>
-              <option value="html">HTML</option>
-              <option value="js">JS</option>
+              <option selected value="css">CSS</option>
+              <option selected value="html">HTML</option>
+              <option selected value="js">JS</option>
               <option value="react">React</option>
               <option value="angular">Angular</option>
               <option value="php">PHP</option>
@@ -551,5 +553,8 @@
         </div>
       </div>
     </section>
+
+    <script src="./js/choices.min.js"></script>
+    <script src="./js/calculator.js"></script>
   </body>
 </html>
