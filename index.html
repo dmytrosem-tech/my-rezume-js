@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>my rezume js</title>
 
+    <style>
+      .modal {
+        display: none;
+      }
+    </style>
+
     <link rel="stylesheet" href="./css/normalize.min.css" />
     <link rel="stylesheet" href="./css/font-awesome.min.css" />
     <link rel="stylesheet" href="./css/choices.min.css" />
@@ -166,7 +172,7 @@
 
     <!-- About me -->
 
-    <section class="about">
+    <section class="about" id="about">
       <div class="container container-left">
         <h3 class="section-title about-title">I code things from scratch_</h3>
         <p class="about-descr">
@@ -198,7 +204,7 @@
 
     <!-- Personal projects -->
 
-    <section class="personal-projects">
+    <section class="personal-projects" id="projects">
       <div class="container">
         <h3 class="section-title personal-projects-title">
           My personal _projects
@@ -351,7 +357,7 @@
 
     <!-- Calculator -->
 
-    <section class="calculator">
+    <section class="calculator" id="calculator">
 
       <div class="container">
 
@@ -421,15 +427,13 @@
 
     <!-- Footer -->
 
-    <section class="footer">
+    <section class="footer" id="contacts">
       <div class="container">
         <h4 class="footer-title">Dmytro Semeruk</h4>
         <p class="footer-text">Frontend Developer</p>
         <address class="footer-address">
           <a href="tel:+380972117664" class="footer-tel">+380972117664</a>
-          <a href="mailto:deemoon83@gmail.com" class="footer-mail"
-            >deemoon83@gmail.com</a
-          >
+          <a href="mailto:deemoon83@gmail.com" class="footer-mail">deemoon83@gmail.com</a>
         </address>
 
         <div class="footer-icons">
@@ -466,6 +470,31 @@
         </div>
       </div>
     </section>
+
+    <!-- MODALS -->
+
+    <div class="modals-wrapper">
+
+      <!-- Mobile Menu -->
+      
+      <div class="modal modal-mobile-menu">
+        <div class="modal-mobile-content">
+          <div class="container mobile-menu-container">
+            <i class="fas fa-times modal-close-btn mobile-menu-close-btn"></i>
+            <nav class="mobile-menu-items">
+              <a href="#about" class="mobile-menu-item">ABOUT</a>
+              <a href="#projects" class="mobile-menu-item">PROJECTS</a>
+              <a href="#calculator" class="mobile-menu-item">COST CALCULATOR</a>
+              <a href="#contacts" class="mobile-menu-item">CONTACTS</a>
+            </nav>
+            <div class="mobile-menu-contacts">
+              <a href="tel:+380972117664" class="mobile-menu-tel">+380972117664</a>
+              <a href="mailto:deemoon83@gmail.com" class="mobile-menu-mail">deemoon83@gmail.com</a>
+            </div>
+          </div>
+        </div>     
+      </div>
+    </div>
 
     <script src="./js/choices.min.js"></script>
     <script src="./js/calculator.js"></script>
