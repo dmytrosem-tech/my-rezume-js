@@ -16,6 +16,9 @@
   --txt-c-accent: var(--c-accent);
   --txt-c-light: var(--c-light);
 
+  /* Modals */
+  --modal-bgd-dark: rgba(20, 29, 45, 0.8);
+
   /* font */
   --font-main: "Acrom", sans-serif;
 
@@ -126,7 +129,7 @@ html {
   left: 0;
   height: 100%;
   width: 100%;
-  background: #fff;
+  background: var(--modal-bgd-dark);
   opacity: 0;
   transition: opacity 0.3s ease-in-out;
   pointer-events: none;
@@ -137,6 +140,12 @@ html {
   display: block;
   opacity: 1;
 }
+
+.body-scroll-disable {
+  overflow: hidden;
+}
+
+/* Mobile menu */
 
 .modal-mobile-menu {
   background: var(--c-light);
@@ -207,6 +216,25 @@ html {
 .mobile-menu-contacts {
   display: flex;
   flex-direction: column;
+}
+
+/* modal video */
+.my-video-container {
+  padding: 20px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.my-video-content {
+  width: 100%;
+}
+
+.my-video-close-btn {
+  padding: 10px 14px;
+  background: var(--c-light);
+  color: var(--c-dark);
 }
 
 /* Front Page section */
