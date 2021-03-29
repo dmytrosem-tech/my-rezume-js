@@ -237,6 +237,57 @@ html {
   color: var(--c-dark);
 }
 
+.my-answer-container {
+    padding: 20px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.my-answer-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: var(--c-light);  
+  min-width: 300px;
+  min-height: 325px;
+}
+
+.tnx {
+  margin: 0 0 13px 0;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: var(--c-accent);
+  
+}
+
+.answer-txt {
+  margin: 0 0 17px 0;
+  width: 240px;
+  height: 60px;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--c-dark);
+}
+
+.see-ya-later {
+  text-align: center;
+  margin: 0;
+  width: 185px;
+  height: 45px;
+  font-size: 17px;
+  line-height: 130%;
+  color: var(--c-dark);
+}
+
 /* Front Page section */
 
 .front-page {
