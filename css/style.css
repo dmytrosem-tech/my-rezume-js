@@ -731,6 +731,11 @@ html {
   margin-bottom: 30px;
 }
 
+.callback-form-input-error {
+  border: 1px solid red;
+} 
+
+
 .callback-form-submit {
   width: 240px;
   text-align: center;

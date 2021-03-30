@@ -347,9 +347,9 @@
         <form action="" class="callback-form-container">
           <h3 class="callback-form-title">/Are you minding [a project?]</h3>
           <p class="callback-form-descr">Leave a request to discuss the task and technical requirements</p>
-          <input type="text" class="callback-form-input" placeholder="name" />
-          <input type="email" class="callback-form-input" placeholder="email" />
-          <input type="tel" class="callback-form-input" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="phone"/>
+          <input type="text" class="callback-form-input" placeholder="name" id="callback-form-input-name"/>
+          <input type="email" class="callback-form-input" placeholder="email" id="callback-form-input-email"/>
+          <input type="tel" class="callback-form-input" placeholder="+380 (__) ___-__-__" id="callback-form-input-phone"/>
           <input type="submit" class="callback-form-submit accent-btn" value="Discuss the project  —"/>
         </form>
       </div>
@@ -506,7 +506,7 @@
 
       <!-- my answers modal -->
 
-      <div class="modal modal-area-bgd" id="">
+      <div class="modal modal-area-bgd" id="my-answer-lol">
         <div class="my-answer-container modal-area-content">
           <div class="my-answer-content">
             <i class="fas fa-times modal-close-btn my-answer-close-btn"></i>
@@ -708,5 +708,6 @@
     <script src="./js/calculator.js"></script>
     <script src="./js/project-modals.js"></script>
     <script src="./js/modals.js"></script>
+    <script src="./js/callback-form.js"></script>
   </body>
 </html>
