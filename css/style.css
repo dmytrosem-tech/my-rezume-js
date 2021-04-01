@@ -422,6 +422,7 @@ html {
 
 .front-page-gallery-btn {
   margin-bottom: 40px;
+  width: 400px;
 }
 .front-page-my-photo {
   width: 100px;
@@ -555,6 +556,10 @@ html {
   line-height: 150%;
   color: var(--c-dark);
   margin: 0 0 30px 0;
+}
+
+.about-text:first-child {
+  width: 340px;
 }
 
 .about-text:last-child {
