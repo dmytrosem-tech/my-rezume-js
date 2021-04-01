@@ -778,6 +778,7 @@ html {
 }
 
 .calculator-descr {
+  width: 276px;
   font-weight: bold;
   font-size: 24px;
   line-height: 150%;
@@ -1124,5 +1125,50 @@ html {
     font-size: 200px;
     line-height: 240px;
     top: 19px;
+  }
+
+  .callback-form-container {
+    padding: 75px 30px 80px 30px;
+  }
+
+  .callback-form-title {
+    font-size: 36px;
+    line-height: 43px;
+    width: 386px;
+  }
+
+  .callback-form-submit,
+  .callback-form-input,
+  .callback-form-descr {
+    width: 386px;
+    box-sizing: border-box;
+  }
+
+  .callback-form-:last-child {
+    margin-bottom: 40px;
+  }
+
+  .callback-form-submit {
+    margin-top: 10px;
+  }
+
+  .calculator .container {
+    align-items: normal;
+  }
+
+  .calculator-title {
+    width: 605px;
+    font-size: 50px;
+    line-height: 60px;
+    text-align: left;
+  }
+
+  .calculator-descr {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: auto;
+    font-size: 36px;
+    line-height: 150%;
   }
 }
