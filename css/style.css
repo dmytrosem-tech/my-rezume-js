@@ -1153,10 +1153,13 @@ html {
   }
 
   .calculator .container {
+    padding: 20px 10px 90px 10px;
+    position: relative;
     align-items: normal;
   }
 
   .calculator-title {
+    margin-bottom: 40px;
     width: 605px;
     font-size: 50px;
     line-height: 60px;
@@ -1170,5 +1173,64 @@ html {
     width: auto;
     font-size: 36px;
     line-height: 150%;
+  }
+
+  .calculator-icon {
+    position: absolute;
+    width: 344px;
+    right: 10px;
+    top: 402px;
+    z-index: 1;
+  }
+  .calculator-text {
+    text-align: left;
+    width: 330px;
+    margin-top: 10px;
+  }
+
+  .calculator-form {
+    z-index: 2;
+    padding: 60px 80px 70px 80px;
+  }
+
+  .calculator-form-title {
+    line-height: 150%;
+  }
+
+  .tablet-element .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .footer .container {
+    padding: 40px 20px 60px 20px;
+  }
+
+  .footer-title {
+    margin-top: 0;
+    text-align: left;
+  }
+
+  .footer-text {
+    text-align: left;
+  }
+
+  .footer-address-tablet {
+    margin-bottom: 35px;
+  }
+
+  .footer-tel {
+    margin-top: 0;
+    text-align: right;
+  }
+
+  .footer-mail {
+    margin-bottom: 0;
+    text-align: right;
+  }
+
+  .footer-icons-list {
+    margin-bottom: 0;
   }
 }
