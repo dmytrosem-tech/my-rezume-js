@@ -67,18 +67,24 @@
   font-style: normal;
 }
 
-a {
-  text-decoration: none;
-  font-style: normal;
+html {
+  scroll-behavior: smooth;
 }
 
 body {
   font-family: var(--font-main);
 }
 
-html {
-  scroll-behavior: smooth;
+a {
+  text-decoration: none;
+  font-style: normal;
 }
+
+ul {
+  padding: 0;
+}
+
+
 
 /* COMMON */
 
@@ -1295,6 +1301,14 @@ html {
     margin-left: -60px;
     margin-bottom: 35px;
   }
+  .header-nav-links .link {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color:var(--txt-c-grey);
+  }
 
   .expirience-wrapper {
     order: 1;
@@ -1355,9 +1369,14 @@ html {
 
   .nav-linx-box {
     display: flex;
+    margin-left: 140px;
+    width: 510px;
   }
 
   .header-nav-links {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
     list-style: none;
   }
 
